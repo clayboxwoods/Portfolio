@@ -1,0 +1,23 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th.appt {
+  background-color: green;
+}
+
+th.clear {
+  background-color: orange;
+}
+
+th.block{
+  background-color: red;
+}
