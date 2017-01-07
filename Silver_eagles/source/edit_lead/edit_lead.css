@@ -1,0 +1,86 @@
+body {font-family: "Lato", sans-serif;}
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.topright {
+ float: right;
+ cursor: pointer;
+ font-size: 20px;
+}
+
+.topright:hover {color: red;}
+
+.col_one, .col_two {
+    float: left;
+}
+
+.col_one {
+    margin-right: 60px;
+}
+
+label{
+	padding-right: 50px;
+}
+
+.short{
+	width: 160px;
+}
+
+.long{
+	width: 400px;
+}
+
+.medium{
+	width: 200px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+	margin-bottom: 30px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
