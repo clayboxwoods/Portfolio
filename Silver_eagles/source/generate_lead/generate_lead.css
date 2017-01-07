@@ -1,0 +1,19 @@
+.col_one, .col_two {
+    float: left;
+}
+
+.col_one {
+    margin-right: 60px;
+}
+
+label{
+	padding-right: 50px;
+}
+
+.short{
+	width: 160px;
+}
+
+.long{
+	width: 400px;
+}
